@@ -1,20 +1,19 @@
 # `dots`
-My shitty dotfiles ☕
 
-## Spaceship
-(Name of my thinkpad t410s laptop)
+## Spaceship  
+(Name of my thinkpad t410s laptop)  
 
-*OS:* Arch linux
-*CPU:* Intel Pentium G3258
-*GPU:* AMD R9 290x
+`OS:` Arch linux  
+`CPU:` Intel Pentium G3258  
+`GPU:` AMD R9 290x  
 
-## Spacestation
-(Name of my desktop)
+## Spacestation  
+(Name of my desktop)  
 
-*OS:* Arch linux
-*CPU:* Intel i5 520M
+`OS:` Arch linux  
+`CPU:` Intel i5 520M  
 
-## Spacepod
-(Name of my phone)
+## Spacepod  
+(Name of my phone)  
 
-*OS:* Cyanogen 13
+`OS:` Cyanogen 13  
