@@ -1,0 +1,18 @@
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! disable the motherfucking scrollbar
+URxvt.scrollBar: false
+
+! Set terminal padding
+URxvt.internalBorder: 15
+
+! Set font to Terminess
+URxvt.font: xft:xos4 Terminess Powerline:style=Regular:pixelsize=12
+URxvt.boldFont: xft:xos4 Terminess Powerline:style=Bold:pixelsize=12
