@@ -155,6 +155,9 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar 
 {
+		# disable tray output
+		tray_output none
+
         colors
         {
                 background $bg
