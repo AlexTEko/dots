@@ -106,14 +106,13 @@ alias updoot='pacaur -Syu' # update command
 alias upfix='sudo rm -r /var/lib/pacman/db.lck' # if update says pacman is locked
 alias data='vnstat -q' # print data usage if using vnstat
 alias power='sudo powertop'
-alias virtualbox='modprobe vboxdrv' # run before starting virtualbox
 alias mixer='pulsemixer' # change audio
 alias vn='viewnior'
+alias nc='ncdu' # show disk space stuff
 alias please='sudo $(history -p !!)' # fancy last command as sudo
 
 
 # New commands
-alias kota="python '/home/kota/git/tools/kota/kota.py'" # print alias's
 alias pb='curl -F c=@- https://ptpb.pw < ' # pb a file and print url
 alias pbv='vim tmp.txt && curl -F c=@- https://ptpb.pw < tmp.txt && rm tmp.txt' # open a tmp file in vim, upload to pb + print url, remove file
 alias path='echo -e ${PATH//:/\\n}' # print path variable
@@ -136,12 +135,13 @@ alias gtfo='find . -mindepth 2 -type f -print -exec mv {} . \;' # WARNING: searc
 
 
 # Launch Games
-alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'" 
+alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'"
 alias steam="steam-native"
 alias battlenet="wine '/home/kota/.wine/drive_c/Program Files (x86)/Blizzard App/Battle.net Launcher.exe'"
-alias guildwars="wine '/home/kota/.wine/drive_c/Program Files/Guild Wars 2/Gw2-64.exe'" 
-#alias league="wine '/home/kota/bin/league-of-legends/drive_c/Riot Games/League of Legends/LeagueClient.exe'"
+alias guildwars="wine '/home/kota/.wine/drive_c/Program Files/Guild Wars 2/Gw2-64.exe'"
 alias bird="love '/home/kota/bin/bird/bird.love'"
+alias sims="wine '/home/kota/.wine/drive_c/Games/The Sims 4/Game/Bin/TS4.exe'"
+alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 
 # Launch Programs
 alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder

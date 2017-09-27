@@ -213,3 +213,5 @@ exec --no-startup-id wire-desktop
 exec --no-startup-id keepassxc
 # Start MPD
 exec mpd
+# Start MPDscribble
+exec mpdscribble

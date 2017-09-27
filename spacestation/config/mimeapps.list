@@ -1,10 +1,10 @@
 [Added Associations]
-text/html=firefox.desktop;mousepad.desktop;
+text/html=mousepad.desktop;firefox.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
 image/png=viewnior.desktop;gimp.desktop;feh.desktop;
 application/x-tar=org.gnome.FileRoller.desktop;
 audio/mpeg=vlc.desktop;
-image/jpeg=viewnior.desktop;feh.desktop;
+image/jpeg=viewnior.desktop;gimp.desktop;feh.desktop;
 text/plain=mousepad.desktop;firefox.desktop;libreoffice-writer.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
@@ -21,7 +21,7 @@ text/x-csrc=mousepad.desktop;
 text/markdown=mousepad.desktop;firefox.desktop;
 text/css=mousepad.desktop;
 application/x-shellscript=mousepad.desktop;
-application/pdf=zathura-pdf-poppler.desktop;firefox.desktop;wine-extension-pdf.desktop;zathura-pdf-mupdf.desktop;
+application/pdf=firefox.desktop;zathura-pdf-poppler.desktop;wine-extension-pdf.desktop;zathura-pdf-mupdf.desktop;
 text/x-lua=mousepad.desktop;
 video/mp4=vlc.desktop;
 image/gif=viewnior.desktop;wine-extension-gif.desktop;
@@ -35,12 +35,16 @@ video/x-flv=vlc.desktop;
 video/quicktime=vlc.desktop;
 text/x-ms-regedit=mousepad.desktop;
 text/x-c++src=mousepad.desktop;
-audio/flac=audacity.desktop;vlc.desktop;
+audio/flac=vlc.desktop;audacity.desktop;
 text/x-python=mousepad.desktop;
 application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
 application/json=mousepad.desktop;
 image/vnd.djvu+multipage=zathura-djvu.desktop;
 video/x-matroska=vlc.desktop;
+text/x-makefile=gvim.desktop;
+audio/mp4=mpv.desktop;
+audio/AMR=mpv.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
 
 [Default Applications]
 audio/mpeg=vlc.desktop
