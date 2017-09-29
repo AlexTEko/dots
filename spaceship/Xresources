@@ -14,5 +14,5 @@ URxvt.scrollBar: false
 URxvt.internalBorder: 15
 
 ! Set font to Terminess
-URxvt.font: xft:xos4 Terminess Powerline:style=Regular:pixelsize=12
-URxvt.boldFont: xft:xos4 Terminess Powerline:style=Bold:pixelsize=12
+URxvt.font: xft:tewi:style=Regular:pixelsize=11
+URxvt.boldFont: xft:tewi:style=Bold:pixelsize=11

@@ -51,7 +51,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo)
+plugins=(sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,8 +99,6 @@ alias rc='rsync'
 alias ..='cd ..'
 alias c='clear'
 alias vi='vim'
-alias updoot='pacaur -Syu' # update command
-alias upfix='sudo rm -r /var/lib/pacman/db.lck' # if update says pacman is locked
 alias data='vnstat -q' # print data usage if using vnstat
 alias power='sudo powertop'
 alias wifi='nmtui'
@@ -122,25 +120,18 @@ alias record='ffmpeg -f x11grab -video_size 1440x900 -r 25 -i $DISPLAY -f alsa -
 alias hlocate='find . -name ' # search for stuff
 alias free='df -h' # free hard drive space
 alias myip='curl http://ipecho.net/plain; echo' # print ip address
-alias installed='pacman -Qet > pacman_installed.txt' # installed packages
-alias installed_aur='pacman -Qm > pacman_installed_aur.txt' # aur packages
-alias unused='pacman -Qdt > pacman_unused.txt' # unused dependencies 
-alias removeunused='sudo pacman -Rns $(pacman -Qtdq)' # remove above packages
-alias removecache='pacaur -Sc' # clear pacaur cache
 alias weather='curl -s wttr.in/Jonestown | head -7' # print weather
 alias weather2='curl -s wttr.in/Jonestown | head -17 | tail -10' # print weather differently
 alias gtfo='find . -mindepth 2 -type f -print -exec mv {} . \;' # WARNING: search into each subdir and copy all files to the dir you're currently in
 
 
 # Launch Games
-alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'"
-# alias steam="steam-native"
-alias battlenet="wine '/home/kota/.wine/drive_c/Program Files (x86)/Blizzard App/Battle.net Launcher.exe'"
-alias guildwars="wine '/home/kota/.wine/drive_c/Program Files/Guild Wars 2/Gw2-64.exe'"
-alias bird="love '/home/kota/bin/bird/bird.love'"
-alias sims="wine '/home/kota/.wine/drive_c/Games/The Sims 4/Game/Bin/TS4.exe'"
-alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
+alias bird="love '/home/kota/bin/bird.love'"
+alias minecraft="java -jar /home/kota/bin/minecraft.jar"
+alias te_minecraft="java -jar /home/kota/bin/te_minecraft.jar"
+alias doom="./home/kota/bin/gzdoom"
+# alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'"
+# alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 
 # Launch Programs
-alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder
-
+# alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder
