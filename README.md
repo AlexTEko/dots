@@ -17,21 +17,21 @@
 `Color:` Gruvbox  
 
 
-## Spaceship (comming soon)  
+## Spaceship
 (Name of my thinkpad t410s laptop)  
 
-`OS:` Arch linux  
+`OS:` Debian Testing
 `CPU:`  Intel i5 520M  
-`WM:`    awesome  
+`WM:`    i3
 `Term:`  urxvt  
-`Font:`  Dina  
+`Font:`  tewi
 `Color:` Dracula  
 
 
 ## Spacepod (comming soon)  
 (Name of my phone)  
 
-`OS:` Cyanogen 13  
+`OS:` Lineage 14
 `CPU:`  Snapdragon 810  
 `WM:`    nova  
 `Font:`  FiraSans  
