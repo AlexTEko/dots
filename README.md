@@ -1,9 +1,6 @@
 # `dots`
 
 ![1](https://ptpb.pw/mnSV.png)
-![2](https://ptpb.pw/8MXN.png)
-![3](https://ptpb.pw/Isfw.png)
-![4](https://ptpb.pw/freh.png)
 
 ## Spacestation  
 (Name of my desktop)  
@@ -35,3 +32,10 @@
 `CPU:`  Snapdragon 810  
 `WM:`    nova  
 `Font:`  FiraSans  
+
+## More Scrots
+
+![2](https://ptpb.pw/8MXN.png)
+![3](https://ptpb.pw/Isfw.png)
+![4](https://ptpb.pw/freh.png)
+![5](https://ptpb.pw/DYUW.png)
