@@ -1,0 +1,6 @@
+# Ignore Python pyc files
+*.pyc
+
+# Ignore my .opus files
+*.opus
+*.mp3
