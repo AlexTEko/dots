@@ -23,11 +23,11 @@
 
 (Name of my thinkpad t410s laptop)  
 
-`OS:` Debian Testing
+`OS:` Debian Testing  
 `CPU:`  Intel i5 520M  
-`WM:`    i3
+`WM:`    i3  
 `Term:`  urxvt  
-`Font:`  tewi
+`Font:`  tewi  
 `Color:` Dracula  
 
 
