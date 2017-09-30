@@ -1,8 +1,11 @@
 # `dots`
 
-![1](https://ptpb.pw/mnSV.png)
+
 
 ## Spacestation  
+
+![1](https://ptpb.pw/mnSV.png)
+
 (Name of my desktop)  
 
 `OS:`    Arch linux  
@@ -15,6 +18,9 @@
 
 
 ## Spaceship
+
+![5](https://ptpb.pw/DYUW.png)
+
 (Name of my thinkpad t410s laptop)  
 
 `OS:` Debian Testing
@@ -38,4 +44,4 @@
 ![2](https://ptpb.pw/8MXN.png)
 ![3](https://ptpb.pw/Isfw.png)
 ![4](https://ptpb.pw/freh.png)
-![5](https://ptpb.pw/DYUW.png)
+
