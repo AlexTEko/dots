@@ -142,4 +142,5 @@ alias ali="python /home/kota/bin/ali.py"
 alias pipes="bash /home/kota/bin/pipes.sh"
 alias color="bash /home/kota/bin/color.sh"
 alias kota="cat /home/kota/bin/kota"
+alias alarm="python /home/kota/bin/alarm.py"
 # alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder

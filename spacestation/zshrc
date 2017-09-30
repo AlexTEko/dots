@@ -151,3 +151,4 @@ alias magicavoxel="wine '/home/kota/.wine/drive_c/Program Files/magicavoxel/Magi
 alias ali="python /home/kota/bin/ali.py"
 alias color="bash /home/kota/bin/color.sh"
 alias kota="cat /home/kota/bin/kota"
+alias alarm="python /home/kota/bin/alarm.py"
