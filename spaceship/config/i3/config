@@ -191,7 +191,7 @@ for_window [class="love"] floating enable
 for_window [class="Galculator"] floating enable
 
 # bind programs to workspaces
-assign [class="keepassxc"] $ws10
+assign [class="keepassx"]  $ws10
 assign [class="Wire"]      $ws9
 assign [class="Mumble"]    $ws9
 assign [class="Nextcloud"] $ws8
@@ -209,7 +209,7 @@ exec --no-startup-id nextcloud
 # Start Telegram
 # exec --no-startup-id wire-desktop
 # Start keepass
-exec --no-startup-id keepassxc
+exec --no-startup-id keepassx
 # Start MPD
 # exec mpd
 # Start MPDscribble

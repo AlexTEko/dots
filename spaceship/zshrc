@@ -95,6 +95,7 @@ alias shutdown='shutdown -P -h now' # shutdown turns off computer
 
 
 # Short cuts
+alias updoot="sudo apt update && sudo apt upgrade"
 alias rc='rsync'
 alias ..='cd ..'
 alias c='clear'
@@ -109,6 +110,7 @@ alias please='sudo $(history -p !!)' # fancy last command as sudo
 
 
 # New commands
+alias wal-homepage="cp /home/kota/.cache/wal/colors.css /var/www/html/colors.css"
 alias pb='curl -F c=@- https://ptpb.pw < ' # pb a file and print url
 alias pbv='vim tmp.txt && curl -F c=@- https://ptpb.pw < tmp.txt && rm tmp.txt' # open a tmp file in vim, upload to pb + print url, remove file
 alias path='echo -e ${PATH//:/\\n}' # print path variable
@@ -129,9 +131,14 @@ alias gtfo='find . -mindepth 2 -type f -print -exec mv {} . \;' # WARNING: searc
 alias bird="love '/home/kota/bin/bird.love'"
 alias minecraft="java -jar /home/kota/bin/minecraft.jar"
 alias te_minecraft="java -jar /home/kota/bin/te_minecraft.jar"
-alias doom="./home/kota/bin/gzdoom"
+alias doom="/home/kota/bin/gzdoom"
+alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 # alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'"
-# alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 
 # Launch Programs
+alias stpb="/home/kota/bin/stpb"
+alias ali="python /home/kota/bin/ali.py"
+alias pipes="bash /home/kota/bin/pipes.sh"
+alias color="bash /home/kota/bin/color.sh"
+alias kota="cat /home/kota/bin/kota"
 # alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder
