@@ -102,6 +102,7 @@ alias rc='rsync'
 alias ..='cd ..'
 alias c='clear'
 alias vi='vim'
+alias calc='bc -i'
 alias updoot='pacaur -Syu' # update command
 alias upfix='sudo rm -r /var/lib/pacman/db.lck' # if update says pacman is locked
 alias data='vnstat -q' # print data usage if using vnstat
@@ -135,14 +136,18 @@ alias gtfo='find . -mindepth 2 -type f -print -exec mv {} . \;' # WARNING: searc
 
 
 # Launch Games
+alias te_minecraft="java -jar /home/kota/bin/te_minecraft.jar"
 alias winsteam="wine '/home/kota/.wine/drive_c/Program Files (x86)/Steam/Steam.exe'"
 alias steam="steam-native"
 alias battlenet="wine '/home/kota/.wine/drive_c/Program Files (x86)/Blizzard App/Battle.net Launcher.exe'"
 alias guildwars="wine '/home/kota/.wine/drive_c/Program Files/Guild Wars 2/Gw2-64.exe'"
-alias bird="love '/home/kota/bin/bird/bird.love'"
+alias bird="love '/home/kota/bin/bird.love'"
 alias sims3="wine '/home/kota/.wine/drive_c/Program Files (x86)/Electronic Arts/The Sims 3/Game/Bin/TS3.exe'"
 alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 
 # Launch Programs
 alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder
-
+alias magicavoxel="wine '/home/kota/.wine/drive_c/Program Files/magicavoxel/MagicaVoxel.exe'"
+alias ali="python /home/kota/bin/ali.py"
+alias color="bash /home/kota/bin/color.sh"
+alias kota="cat /home/kota/bin/kota"

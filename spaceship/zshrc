@@ -100,6 +100,7 @@ alias rc='rsync'
 alias ..='cd ..'
 alias c='clear'
 alias vi='vim'
+alias calc='bc -i'
 alias data='vnstat -q' # print data usage if using vnstat
 alias power='sudo powertop'
 alias wifi='nmtui'
