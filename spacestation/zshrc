@@ -140,7 +140,7 @@ alias steam="steam-native"
 alias battlenet="wine '/home/kota/.wine/drive_c/Program Files (x86)/Blizzard App/Battle.net Launcher.exe'"
 alias guildwars="wine '/home/kota/.wine/drive_c/Program Files/Guild Wars 2/Gw2-64.exe'"
 alias bird="love '/home/kota/bin/bird/bird.love'"
-alias sims="wine '/home/kota/.wine/drive_c/Games/The Sims 4/Game/Bin/TS4.exe'"
+alias sims3="wine '/home/kota/.wine/drive_c/Program Files (x86)/Electronic Arts/The Sims 3/Game/Bin/TS3.exe'"
 alias rollercoaster="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 
 # Launch Programs

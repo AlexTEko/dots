@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 75
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 4
-time: 0.441000
+current: 11
+time: 93.495000
 random: 0
 repeat: 1
 single: 0
@@ -12,15 +12,41 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Run The Jewels/Run The Jewels 2/01 - Jeopardy.mp3
-1:Run The Jewels/Run The Jewels 2/02 - Oh My Darling Don't Cry.mp3
-2:Run The Jewels/Run The Jewels 2/03 - Blockbuster Night Part 1.mp3
-3:Run The Jewels/Run The Jewels 2/04 - Close Your Eyes (and Count to Fuck).mp3
-4:Run The Jewels/Run The Jewels 2/05 - All My Life.mp3
-5:Run The Jewels/Run The Jewels 2/06 - Lie, Cheat, Steal.mp3
-6:Run The Jewels/Run The Jewels 2/07 - Early.mp3
-7:Run The Jewels/Run The Jewels 2/08 - All Due Respect.mp3
-8:Run The Jewels/Run The Jewels 2/09 - Love Again (Akinyele Back).mp3
-9:Run The Jewels/Run The Jewels 2/10 - Crown.mp3
-10:Run The Jewels/Run The Jewels 2/11 - Angel Duster.mp3
+0:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/01 - Forever Heavy.mp3
+1:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/02 - Jump into My Mouth and Breathe the Stardust.mp3
+2:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/03 - Melt Me.mp3
+3:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/04 - Lollipopsichord.mp3
+4:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/05 - They Live in the Meadow.mp3
+5:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/06 - Sun Lips.mp3
+6:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/07 - Rollerdisco.mp3
+7:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/08 - Neon Syrup for the Cemetery Sisters.mp3
+8:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/09 - The Afternoon Turns Pink.mp3
+9:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/10 - When the Sun Grows on Your Tongue.mp3
+10:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/11 - Spinning Cotton Candy in a Shack Made of Shingles.mp3
+11:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/12 - Drippy Eye.mp3
+12:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/13 - Lost, Picking Flowers in the Woods.mp3
+13:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/14 - Caterpillar House.mp3
+14:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/15 - Wall of Gum.mp3
+15:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/16 - Untitled Roadside Demo.mp3
+16:Black Moth Super Rainbow/[2007-05-15] Dandelion Gum/17 - [untitled].mp3
+17:Sylvan Esso/Sylvan Esso (2014)/01 - Hey Mami.flac
+18:Sylvan Esso/Sylvan Esso (2014)/02 - Dreamy Bruises.flac
+19:Sylvan Esso/Sylvan Esso (2014)/03 - Could I Be.flac
+20:Sylvan Esso/Sylvan Esso (2014)/04 - Wolf.flac
+21:Sylvan Esso/Sylvan Esso (2014)/05 - Dress.flac
+22:Sylvan Esso/Sylvan Esso (2014)/06 - H.S.K.T..flac
+23:Sylvan Esso/Sylvan Esso (2014)/07 - Coffee.flac
+24:Sylvan Esso/Sylvan Esso (2014)/08 - Uncatena.flac
+25:Sylvan Esso/Sylvan Esso (2014)/09 - Play It Right.flac
+26:Sylvan Esso/Sylvan Esso (2014)/10 - Come Down.flac
+27:Sylvan Esso/What Now (2017)/01 Sound.flac
+28:Sylvan Esso/What Now (2017)/02 The Glow.flac
+29:Sylvan Esso/What Now (2017)/03 Die Young.flac
+30:Sylvan Esso/What Now (2017)/04 Radio.flac
+31:Sylvan Esso/What Now (2017)/05 Kick Jump Twist.flac
+32:Sylvan Esso/What Now (2017)/06 Song.flac
+33:Sylvan Esso/What Now (2017)/07 Just Dancing.flac
+34:Sylvan Esso/What Now (2017)/08 Signal.flac
+35:Sylvan Esso/What Now (2017)/09 Slack Jaw.flac
+36:Sylvan Esso/What Now (2017)/10 Rewind.flac
 playlist_end
