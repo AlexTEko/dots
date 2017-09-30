@@ -1,0 +1,11 @@
+To use place a song named alarm.opus in this directory!
+
+example: alarm.py -t 8h
+alarm will be set for 8 hours
+
+d = day
+h = hour
+m = minute
+s = second (default)
+
+depends on vlc and gnu sleep (obviously it would be incredibly simple to change that though)
