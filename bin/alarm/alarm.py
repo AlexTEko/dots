@@ -18,6 +18,9 @@ import sys
 import subprocess
 import argparse
 
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+MUSIC_FILE = os.path.join(ROOT_DIR, "alarm.opus")
+
 def getArgs():
     # get the passed arguments
     description = "alarm"
@@ -46,7 +49,7 @@ def main():
 
     # play music
     print("AWAKEN FOUL BEAST")
-    subprocess.run(["cvlc", "-R", "alarm.opus"])
+    subprocess.run(["cvlc", "-R", MUSIC_FILE])
 
 if __name__ == '__main__':
     main()
