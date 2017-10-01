@@ -25,7 +25,7 @@
 
 ## Spaceship
 
-![5](https://ptpb.pw/DYUW.png)
+![5](https://ptpb.pw/SWbK.png)
 
 ( Name of my thinkpad t410s laptop )  
 
