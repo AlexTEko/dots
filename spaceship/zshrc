@@ -144,4 +144,5 @@ alias color="bash /home/kota/bin/color.sh"
 alias kota="cat /home/kota/bin/kota"
 alias alarm="python3 /home/kota/bin/alarm.py"
 alias bat="python3 /home/kota/bin/bat.py"
+alias bright="sudo /home/kota/bin/bright.py"
 # alias pcgen="java -jar '/home/kota/bin/pcgen/pcgen.jar'" # must be in the pcgen folder

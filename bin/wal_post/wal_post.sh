@@ -17,9 +17,6 @@ reload_dunst() {
         -geometry "${DUNST_SIZE:-300x30-40+70}" &
 }
 
-reload_bar() {
-}
-
 main() {
     reload_dunst &
 }

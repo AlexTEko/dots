@@ -19,10 +19,10 @@
 :root {
     /* TAB VARIABLES */
     --bg-light: var(--color0); --bg-dark: var(--color8);
-    --fg-light: var(--color15); --fg-dark: var(--color0);
+    --fg-light: var(--color15); --fg-dark: var(--color15);
     --tab-triangle-correction: -1px;
     --tab-height: 18px; --tab-icon-size: 12px; --tab-strip-margin: -12px; --tab-overlap: -5px;
-    --tab-fonts: "xos4 Terminess Powerline",monospace,"Dejavu Sans"; --tab-font-size: 9pt;
+    --tab-fonts: "xos4 Tewi",monospace,"Dejavu Sans"; --tab-font-size: 9pt;
     --tab-text-align: center; /* left | center | right */
     --tab-triangle: block;  /* block | none */
 
