@@ -17,32 +17,63 @@ o888o  o888o `Y8bod8P'   "888" `Y888""8o
 
 # imports
 import os
+import sys
 
 # constants
 AC   = '/sys/class/power_supply/AC'
 BAT0 = '/sys/class/power_supply/BAT0'
 BAT1 = '/sys/class/power_supply/BAT1'
 
-# get battery charge amounts
-f = open(os.path.join(BAT0, 'energy_full'), 'r')
-bat0Max = f.readline()
-f.close()
-
-f = open(os.path.join(BAT0, 'energy_now'), 'r')
-bat0 = f.readline()
-f.close()
-
-f = open(os.path.join(BAT1, 'charge_full'), 'r')
-bat1Max = f.readline()
-f.close()
-
-f = open(os.path.join(BAT1, 'charge_now'), 'r')
-bat1 = f.readline()
-f.close()
-
 f = open(os.path.join(AC, 'online'), 'r')
 ac = f.readline()
 f.close()
+
+try:
+    # get battery charge amounts
+    f = open(os.path.join(BAT0, 'energy_full'), 'r')
+    bat0Max = f.readline()
+    f.close()
+
+    f = open(os.path.join(BAT0, 'energy_now'), 'r')
+    bat0 = f.readline()
+    f.close()
+except:
+    # the energy file didn't exist no need to print though
+    pass
+try:
+    f = open(os.path.join(BAT0, 'charge_full'), 'r')
+    bat0Max = f.readline()
+    f.close()
+
+    f = open(os.path.join(BAT0, 'charge_now'), 'r')
+    bat0 = f.readline()
+    f.close()
+except:
+    # the charge file didn't exist 
+    sys.exit("battery 0 not found")
+try:
+    # get battery charge amounts
+    f = open(os.path.join(BAT1, 'energy_full'), 'r')
+    bat1Max = f.readline()
+    f.close()
+
+    f = open(os.path.join(BAT1, 'energy_now'), 'r')
+    bat1 = f.readline()
+    f.close()
+except:
+    # the energy file didn't exist no need to print though
+    pass
+try:
+    f = open(os.path.join(BAT1, 'charge_full'), 'r')
+    bat1Max = f.readline()
+    f.close()
+
+    f = open(os.path.join(BAT1, 'charge_now'), 'r')
+    bat1 = f.readline()
+    f.close()
+except:
+    # the charge file didn't exist
+    sys.exit("bat0 not found")
 
 # convert ac to boolean
 if (int(ac) == 0):
