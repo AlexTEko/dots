@@ -223,6 +223,6 @@ exec --no-startup-id nextcloud
 # Start keepass
 exec --no-startup-id keepassx
 # Start MPD
-# exec mpd
+exec mpd
 # Start MPDscribble
-# exec mpdscribble
+exec mpdscribble
