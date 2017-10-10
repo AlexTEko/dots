@@ -19,5 +19,6 @@ raw_file = f.readlines()
 for line in raw_file:
     if line[:5] == "alias":
         print (line[:len(line)-1])
-
+    if line[:3] == "###":
+        print (line[:len(line)-1])
 f.close()

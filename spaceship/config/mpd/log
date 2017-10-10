@@ -17828,3 +17828,32 @@ Oct 02 23:38 : client: [29] closed
 Oct 02 23:38 : client: [30] opened from [::1]:46906
 Oct 02 23:38 : client: [30] closed
 Oct 02 23:39 : client: [1] closed
+Oct 06 12:04 : client: [31] opened from [::1]:45952
+Oct 06 15:01 : client: [32] opened from [::1]:47984
+Oct 06 15:05 : player: played "Sylvan Esso/Sylvan Esso (2014)/01 - Hey Mami.flac"
+Oct 06 15:15 : client: [32] closed
+Oct 06 15:16 : client: [33] opened from [::1]:48238
+Oct 06 15:30 : client: [33] closed
+Oct 06 15:30 : avahi: Client Disconnected, will reconnect shortly
+Oct 06 15:30 : avahi: Client Disconnected, will reconnect shortly
+Oct 06 15:30 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 06 15:30 : player: played "Sylvan Esso/Sylvan Esso (2014)/02 - Dreamy Bruises.flac"
+Oct 06 15:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 15:31 : avahi: Service 'Music Player' successfully established.
+Oct 06 15:32 : client: [0] opened from [::1]:34348
+Oct 06 15:34 : client: [1] opened from [::1]:34394
+Oct 06 16:15 : client: [1] closed
+Oct 09 15:32 : client: [2] opened from [::1]:42820
+Oct 09 15:32 : exception: Failed to open /home/kota/.config/mpd/playlists: No such file or directory
+Oct 09 15:32 : player: played "Sylvan Esso/Sylvan Esso (2014)/02 - Dreamy Bruises.flac"
+Oct 09 15:32 : exception: Failed to open /home/kota/.config/mpd/playlists: No such file or directory
+Oct 09 15:32 : exception: Failed to open /home/kota/.config/mpd/playlists: No such file or directory
+Oct 09 15:32 : client: [2] closed
+Oct 10 02:23 : client: [3] opened from [::1]:59298
+Oct 10 02:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 02:27 : player: played "Run The Jewels/Run The Jewels 3/04 - Call Ticketron.mp3"
+Oct 10 02:27 : player: played "Run The Jewels/Run The Jewels 3/04 - Call Ticketron.mp3"
+Oct 10 02:31 : player: played "Cage The Elephant/[2011-01-11] Thank You, Happy Birthday/02 - Aberdeen.mp3"
+Oct 10 02:32 : client: [4] opened from [::1]:59474
+Oct 10 02:32 : client: [4] closed
+Oct 10 14:10 : client: [3] closed

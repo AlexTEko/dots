@@ -1,0 +1,55 @@
+## minecraft ##
+install = bin
+type    = alias
+
+## te_minecraft ##
+install = bin
+type    = alias
+
+## bird ##
+install = bin
+type    = alias
+
+## doom ##
+install = bin
+type    = alias
+
+## rtc3 ##
+install = wine
+type    = alias
+
+## cavestory ##
+install = wine
+type    = alias
+
+## pychess ##
+install = package
+type    = package
+
+## gnome-mines ##
+install = package
+type    = package
+
+## hammerwatch ##
+install = steam
+type    = steam
+
+## garry's mod ##
+install = steam
+type    = steam
+
+## stardew valley ##
+install = steam
+type    = steam
+
+## half-life ##
+install = steam
+type    = steam
+
+## system shock 2 ##
+install = steam
+type    = steam
+
+## undertale ##
+install = steam
+type    = steam
