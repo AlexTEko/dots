@@ -14,7 +14,11 @@ type    = alias
 install = bin
 type    = alias
 
-## rtc3 ##
+## rct2 ##
+install = make + wine
+type    = alias
+
+## rct3 ##
 install = wine
 type    = alias
 
@@ -31,10 +35,6 @@ install = package
 type    = package
 
 ## hammerwatch ##
-install = steam
-type    = steam
-
-## garry's mod ##
 install = steam
 type    = steam
 

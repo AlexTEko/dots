@@ -134,8 +134,10 @@ alias bird="love '/home/kota/bin/bird.love'"
 alias minecraft="java -jar /home/kota/bin/minecraft.jar"
 alias te_minecraft="java -jar /home/kota/bin/te_minecraft.jar"
 alias doom="/home/kota/bin/gzdoom"
-alias rtc3="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
+alias rct2="openrct2"
+alias rct3="wine '/home/kota/.wine/drive_c/GOG Games/RollerCoaster Tycoon 3 Platinum/RCT3plus.exe'"
 alias cavestory="wine '/home/kota/.wine/drive_c/Program Files (x86)/Cave Story Deluxe/CaveStory/Doukutsu.exe'"
+alias dfs="/home/kota/bin/dfs/startlnp"
 
 ### Launch Programs
 alias stpb="/home/kota/bin/stpb"

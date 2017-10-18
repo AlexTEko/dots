@@ -219,10 +219,10 @@ exec_always wal -i /home/kota/git/wallpapers/noisy_sunset.png
 # restart dunst with colors
 exec_always /home/kota/bin/wal_post.sh
 # nextcloud
-exec --no-startup-id nextcloud
+xec --no-startup-id nextcloud
 # Start keepass
 exec --no-startup-id keepassx
 # Start MPD
-exec mpd
+# exec mpd
 # Start MPDscribble
-exec mpdscribble
+# exec mpdscribble
