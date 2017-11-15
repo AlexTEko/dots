@@ -224,3 +224,5 @@ exec --no-startup-id keepassxc
 exec mpd
 # Start MPDscribble
 exec mpdscribble
+# Start dunst
+exec dunst
